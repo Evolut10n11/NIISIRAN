@@ -1,0 +1,267 @@
+.content-container {
+    display: flex;
+    align-items: flex-start;; 
+}
+
+.logo {
+    margin-right: 10px;
+    margin-top: -10px;
+    margin-left: -10px; 
+}
+
+.logo img {
+    height: 100px; 
+    width: auto;   
+}
+
+.header-table {
+    font-family: 'EB Garamond', serif;
+    font-size: 20px;
+    color: hwb(210 24% 3%);
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+
+
+
+.header-table-right{
+    margin-left: 1100px;
+    margin-top: 30px;
+}
+
+
+.material-symbols-outlined{
+    color: rgb(18, 79, 139);
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.material-symbols-outlined:hover{
+    color: hsl(210, 82%, 70%);
+}
+
+main{
+    position: relative;
+    background-color: hsl(240, 9%, 15%);
+    min-height: 400px; 
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -4px;
+}
+
+.preContent {
+    background-color:#369;
+    width: 480px;
+    height: 300px;
+    position: absolute; 
+    margin-top: 60px;
+    margin-left: 350px;
+}
+
+h3{
+    margin-left: 20px;
+    margin-top: 50px;
+    text-align: left;
+    color: white;
+    font-size: 35px;
+    font-family: Garamond;
+}
+
+h4{
+    margin-left: 20px;
+    text-align: left;
+    color: white;
+    font-size: 25px;
+    font-family: Garamond;
+}
+
+h5{
+    margin-bottom: -50px;
+    margin-left: 20px;
+    text-align: left;
+    color: black;
+    font-size: 25px;
+    font-family: Garamond;
+}
+
+h6{
+    margin-bottom: -50px;
+    margin-left: 20px;
+    text-align: left;
+    color: black;
+    font-size: 20px;
+    font-family: Garamond;
+}
+
+
+.micBlock{
+    position: absolute;
+    background-color:hsl(210, 68%, 64%);
+    width: 50px;
+    height: 50px;
+    margin-top: 360px;
+    margin-left: 300px;   
+}
+.mainPhoto{
+    position: absolute; 
+    margin-top: 25px;
+    margin-left: 800px;
+}
+
+.mainPhoto img{
+    height: 400px; 
+    width: 650px; 
+}
+
+footer{
+    margin-top: 100px;
+}
+
+
+
+  
+.table-icons{
+    margin-left: 350px;
+}
+
+.descTable{
+    margin-top: 5px;
+    margin-left: 327px;
+    font-family: garamond;
+}
+
+.fstPhoto{
+    margin-top: 50px;
+    margin-left: 150px;
+    position: relative;
+    overflow: hidden;
+    width: 450px; 
+    height: auto; 
+    
+}
+
+
+
+.fstPhoto img{
+    max-width: 100%; 
+    height: auto; 
+    transition: transform 0.3s ease-in-out; 
+}
+
+.fstPhoto img:hover{
+    transform: scale(1.05);
+}
+
+.fstPhoto.active .image-wrapper {
+    transform: scale(1.05); /* При активации контейнера увеличиваем изображение в 1.2 раза */
+}
+
+.second{
+    margin-top: 80px; 
+}
+
+
+.text-container{
+    background-color: #ebeaea;
+    height: 300px;
+    width: 450px;
+    margin-top: -50px;
+    padding-top: 1px;
+    font-family: Garamond;
+    position: relative;
+}
+
+.bottom-container{
+    background-color: #ebeaea;
+    min-height: 350px; 
+    margin-top: 50px;
+    margin-left: -10px; 
+    margin-right: -10px;
+    position: relative;
+}
+
+.lastLogo{
+    margin-left: 150px;
+    margin-top: -50px;
+    padding-top: 1;
+}
+
+.lastTabel{
+    margin-left: 350px;
+    margin-top: -50px;
+    padding-top: 1;
+}
+
+.last{
+    text-align: center;
+}
+
+.third{
+    margin-left: 625px;
+    margin-top: -1259px;
+    position: relative;
+    overflow: hidden;
+}
+
+.text-container-sec{
+    background-color: #ebeaea;
+    height: 300px;
+    width: 642px;
+    margin-top: -4px;
+    padding-top: 1px;
+    font-family: Garamond;
+    position: relative;
+}
+
+.third img{
+    max-width: 100%; 
+    height: auto; 
+    transition: transform 0.3s ease-in-out; 
+}
+
+.third img:hover{
+    transform: scale(1.05);
+}
+
+.third.active .image-wrapper {
+    transform: scale(1.05); 
+}
+
+.lastPhoto{
+    margin-left: 1280px;
+    margin-top: -760px;
+    position: relative;
+    overflow: hidden;  
+}
+
+.lastPhoto img{
+    max-width: 100%; 
+    height: auto; 
+    transition: transform 0.3s ease-in-out; 
+}
+
+.lastPhoto img:hover{
+    transform: scale(1.05);
+}
+
+.lastPhoto.active .image-wrapper {
+    transform: scale(1.05); 
+}
+
+
+.text-container-third{
+    background-color: #ebeaea;
+    height: 300px;
+    width: 456px;
+    margin-top: -4px;
+    padding-top: 1px;
+    font-family: Garamond;
+    position: relative;
+}
+
+.super-mega-last{
+    margin-top: 30px;
+    position: relative;
+    overflow: hidden; 
+}
